@@ -15,4 +15,5 @@ $ conda create -n py3k anaconda python=3
 
 ## Van Allen Lab hyperlinks for miniconda
 [Dockerhub for miniconda base images](https://hub.docker.com/r/vanallenlab/miniconda/)
+
 [Github repository for miniconda](https://github.com/vanallenlab/miniconda)
