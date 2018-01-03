@@ -1,7 +1,5 @@
 # Miniconda
-Miniconda is a minimal implementation of Anaconda and these Docker images build upon Ubuntu 17.04. 
-
-These installations of Miniconda only contain the conda package manager and Python. Once Miniconda is installed, you can use the conda command to install any other packages, create environments, etc. 
+Miniconda is a minimal implementation of Anaconda that only contains the conda package manager and Python. These Docker images build upon Ubuntu 17.04, as oppose to the [official continuumio images](https://hub.docker.com/r/continuumio/miniconda3/) which use Debian. Once Miniconda is installed, you can use the conda command to install any other packages, create environments, etc.
 
 ```
 $ conda install numpy
