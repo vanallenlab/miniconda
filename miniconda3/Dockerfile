@@ -1,10 +1,10 @@
-FROM ubuntu:17.04
+FROM ubuntu:16.04
 
 WORKDIR /
 
 RUN apt-get update && \
 	apt-get upgrade -y && \
-	apt-get install -y wget vim
+	apt-get install -y wget vim bzip2
 
 RUN wget --quiet https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh && \
 	bash ~/miniconda.sh -b -p /opt/conda && \
